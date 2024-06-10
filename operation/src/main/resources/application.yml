@@ -1,0 +1,12 @@
+spring:
+  main:
+    banner-mode: off
+
+amazon:
+  dynamodb:
+    endpoint:
+    region:
+    accesskey:
+    secretkey:
+    tablename-prefix: dyndb-table-
+    tablename-suffix:

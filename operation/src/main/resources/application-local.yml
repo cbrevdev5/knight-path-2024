@@ -1,0 +1,7 @@
+amazon:
+  dynamodb:
+    endpoint: http://localhost:4598
+    region: local
+    accesskey: accessKeyTest
+    secretkey: secretKeyTest
+    tablename-suffix: -local

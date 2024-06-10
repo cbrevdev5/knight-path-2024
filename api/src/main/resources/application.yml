@@ -1,0 +1,24 @@
+app:
+  message-retry: 12
+
+server:
+  port: 8080
+
+spring:
+  main:
+    banner-mode: off
+
+amazon:
+  dynamodb:
+    endpoint:
+    region:
+    accesskey:
+    secretkey:
+    tablename-prefix: dyndb-table-
+    tablename-suffix:
+  sqs:
+    endpoint:
+    region:
+    accesskey:
+    secretkey:
+    queue:
